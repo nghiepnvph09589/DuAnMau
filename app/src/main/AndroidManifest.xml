@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.poly.duanmau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quan Ly Sach"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Activity.ChiTietTheLoai"
+            android:parentActivityName=".Activity.ListTheLoaiActivity"/>
+        <activity
+            android:name=".Activity.ChiTietNguoiDung"
+            android:parentActivityName=".Activity.ListNguoiDungActivity" />
+        <activity android:name=".Activity.ListSachActivity" />
+        <activity
+            android:name=".Activity.ListTheLoaiActivity"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity
+            android:name=".Activity.ListNguoiDungActivity"
+            android:parentActivityName=".Activity.MainActivity" />
+        <activity android:name=".Activity.ListHDCTActivity" />
+        <activity android:name=".Activity.ThemHDCTActivity" />
+        <activity android:name=".Activity.HoaDonActivity" />
+        <activity
+            android:name=".Activity.ChangePassActivity"
+            android:parentActivityName=".Activity.ListNguoiDungActivity" />
+        <activity android:name=".Activity.ListHoaDonActivity" />
+        <activity android:name=".Activity.ManhinhchaoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.ThongKeActivity" />
+        <activity android:name=".Activity.TopBookActivity" />
+        <activity android:name=".Activity.SachActivity"
+            android:parentActivityName=".Activity.ListTheLoaiActivity"/>
+        <activity
+            android:name=".Activity.TheLoaiActivity"
+            android:parentActivityName=".Activity.ListTheLoaiActivity" />
+        <activity
+            android:name=".Activity.NguoiDungActivity"
+            android:parentActivityName=".Activity.ListNguoiDungActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.MainActivity" />
+    </application>
+
+</manifest>

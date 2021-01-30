@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/up_mahinhchao"
+    tools:context=".Activity.ManhinhchaoActivity">
+
+    <LinearLayout
+        android:paddingLeft="12dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="264dp"
+            android:layout_height="178dp"
+            android:text="Quản Lý
+            Thư Viện Sách"
+            android:textColor="@color/white"
+            android:textSize="38dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="26dp"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:textColor="#0000FF"
+        android:textSize="40dp"
+        android:textStyle="italic|bold"
+        android:text="welcome"
+        android:id="@+id/Et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/loading_library"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>
